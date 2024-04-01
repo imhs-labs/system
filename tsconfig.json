@@ -10,7 +10,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "outDir": "lib"
+    "outDir": "lib",
+    "declaration": true
   },
   "include": [
     "./src/**/*",
