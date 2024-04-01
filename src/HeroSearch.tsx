@@ -8,12 +8,12 @@ const SearchLabel = styled(LabelText)({
   marginBottom: 15,
 })
 
-const SearchInput = styled(SearchBox.Input)({
+const SearchInput = styled(SearchBox.Input as any)({
   height: 50,
   border: 'none',
 })
 
-const SearchButton = styled(SearchBox.Button)({
+const SearchButton = styled(SearchBox.Button as any)({
   height: 50,
   width: 50,
   padding: 15,
